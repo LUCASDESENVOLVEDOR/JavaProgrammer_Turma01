@@ -1,0 +1,11 @@
+
+Eclipse
+Workspace - local gerenciado pelo eclipse,onde ficam os 
+projetos.
+
+Conceitos do Java
+ 1.Tudo em Java é classe.
+ 2. Toda Classe em Java deve começar com a letra maiuscula. 
+Todo o resto com letra minúscula.
+
+3. Java é uma linguagem multiplataforma.
