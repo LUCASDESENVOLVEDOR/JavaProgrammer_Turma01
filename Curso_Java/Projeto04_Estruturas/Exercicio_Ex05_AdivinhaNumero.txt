@@ -1,0 +1,23 @@
+O programa produz um número entre 0 e 100.
+O programa pede para usuário digitar um número.
+
+Enquanto o usuário não acertar o numero, o programa registra a tentativa.
+
+No final, o programa deve apresentar a mensagem:
+"Você acertou em ? tentativas"
+
+Exemplo:
+
+O programa gerou o número 59.
+
+1 - "Forneça um numero entre 0 e 100"
+    40
+
+2 - "Forneça um numero entre 41 e 100"
+     65
+
+3 - "Forneça um numero entre 41 e 64"
+    59
+
+4 - "Você acertou em 3 tentativas"
+ 

@@ -11,10 +11,13 @@ public class OperadoresIncrementais {
 		
 		++numero;
 		System.out.println("numero++: " + numero);
-		
+		//12
 		
 		int x =numero++;
+		//12
 		
+		//numero = 13.
+		//14
 		x = ++numero;
 		
 		System.out.println();
