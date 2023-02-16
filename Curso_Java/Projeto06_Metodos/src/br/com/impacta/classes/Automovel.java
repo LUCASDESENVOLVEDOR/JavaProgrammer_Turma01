@@ -64,12 +64,12 @@ public class Automovel {
     public String mostrar(String titulo) {
 		
 		
-		String resposta = titulo + "\n\nMarca: " + this.getMarca() + 
+		return  titulo + "\n\nMarca: " + this.getMarca() + 
 				          "\nModelo: " + this.getModelo() + 
 				          "\nAno: " + this.getAno() + 
 				          "\nPlaca:" + this.getPlaca();
 	
-	return resposta;
+	 
 		
 		
 	}
@@ -90,9 +90,6 @@ public class Automovel {
 	}
 
 	
-	public static double somar (double x, double y) {
-		return x + y;
-	}
 	
 	
 
