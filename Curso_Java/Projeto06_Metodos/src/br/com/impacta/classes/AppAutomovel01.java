@@ -14,13 +14,15 @@ public class AppAutomovel01 {
 		auto.lerDados("Honda","Civic",2020,"EBX1234");	
 		
 	
-	
 		//auto.setAno(1959);
 		
-		String texto = auto.mostrar("titulo personalizado");
-		
+		String texto = auto.mostrar();
 		System.out.println(texto);
-		JOptionPane.showMessageDialog(null, texto,"Relátorio", JOptionPane.ERROR_MESSAGE);
+		
+		//Automovel.paisOrigem = "Argentina";
+		
+		
+		JOptionPane.showMessageDialog(null, auto.mostrar(),"Relátorio", JOptionPane.ERROR_MESSAGE);
 		
 		int n = Integer.parseInt(
 				JOptionPane.showInputDialog("Informe um número"));

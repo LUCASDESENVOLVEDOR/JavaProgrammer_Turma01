@@ -9,6 +9,8 @@ public class Automovel {
  private int	 ano;
  private String	placa;
  
+ public final  static String paisOrigem = "Brasil";
+ 
  
 	public String getMarca() {
 	return marca;
@@ -54,7 +56,8 @@ public class Automovel {
 		String resposta = titulo + "\n\nMarca: " + this.getMarca() + 
 				          "\nModelo: " + this.getModelo() + 
 				          "\nAno: " + this.getAno() + 
-				          "\nPlaca:" + this.getPlaca();
+				          "\nPlaca: " + this.getPlaca() + 
+				          "\nPaís Origem: " + paisOrigem;
 	
 	return resposta;
 		

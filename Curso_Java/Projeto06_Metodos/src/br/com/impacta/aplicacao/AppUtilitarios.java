@@ -14,6 +14,10 @@ public class AppUtilitarios {
 	  
 	 System.out.println(Utilitarios.removerEspacos("Hoje não está chovendo ainda"));
 	  
+	 
+	 System.out.println(Utilitarios.gerarEmail("Luca s", "Arag ao"));
+	 
+	 
 	  //Math.random();
 	  //JOptionPane.showConfirmDialog(null, args);
 	  //Integer.parseInt(null);

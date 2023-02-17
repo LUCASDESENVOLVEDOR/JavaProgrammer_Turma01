@@ -8,9 +8,11 @@ public class AppPessoa {
 	public static void main(String[] args) {
 		
 		Pessoa pessoa = new Pessoa();
-		pessoa.nome = "Lucas";
-		pessoa.idade = 29;
-		pessoa.sexo = Sexo.MASCULINO;
+		pessoa.setNome("Lucas");
+		pessoa.setIdade(29);
+		pessoa.setSexo(Sexo.MASCULINO);
+		
+		System.out.println(pessoa.mostrar());
 		
 
 	}
