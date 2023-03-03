@@ -7,6 +7,19 @@ public class Pessoa {
 	private String nome;
 	private int idade;
 	private Sexo sexo;
+	
+	public Pessoa() {
+		super();
+	}
+	
+	public Pessoa(String nome, int idade, Sexo sexo) {
+		super();
+		this.setNome(nome);
+		this.setIdade(idade);
+		this.setSexo(sexo);
+	}
+	
+	
 	public String getNome() {
 		return nome;
 	}
@@ -39,3 +52,26 @@ public class Pessoa {
 	
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

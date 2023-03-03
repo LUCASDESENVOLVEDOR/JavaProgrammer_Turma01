@@ -10,6 +10,7 @@ public class Produto {
 	private static int CONTADOR = 20;
 	
 	
+	
 	public Produto(String categoria, String descricao, double preco) {
 		this.codigo = CONTADOR++;
 		this.setCategoria(categoria);  
@@ -56,4 +57,34 @@ public class Produto {
 	
 	
 	
+	
+	
+	
+	
+	
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
