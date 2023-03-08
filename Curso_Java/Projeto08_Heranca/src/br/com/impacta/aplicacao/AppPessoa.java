@@ -1,5 +1,7 @@
 package br.com.impacta.aplicacao;
 
+import javax.swing.JOptionPane;
+
 import br.com.impacta.classes.Aluno;
 import br.com.impacta.classes.Curso;
 import br.com.impacta.classes.Funcionario;
@@ -16,6 +18,8 @@ public class AppPessoa {
 		pessoa.setNome("Lucas");
 		pessoa.setIdade(29);
 		pessoa.setSexo(Sexo.MASCULINO);
+		JOptionPane.showMessageDialog(null, pessoa.mostrar());
+		
 		
 		
 		//instancia da classe Funcionario.
@@ -25,6 +29,8 @@ public class AppPessoa {
 		funcionario.setSexo(Sexo.MASCULINO);
 		funcionario.setCargo("Motoboy");
 		funcionario.setSalario(3500);
+		JOptionPane.showMessageDialog(null, funcionario.mostrar());
+		
 		
 		//instancia da classe Aluno.
 		Aluno aluno = new Aluno();
@@ -39,8 +45,13 @@ public class AppPessoa {
 		//cursoDoAluno.setCargaHoraria(100);
 		//cursoDoAluno.setPreco(1000);
 		
+		//comentar aqui.
+		//aluno.setCurso(new Curso(222,"Java Programmer",100,1000));
 		
-		aluno.setCurso(new Curso(222,"Java Programmer",100,1000));
+		JOptionPane.showMessageDialog(null, aluno.mostrar());
+		
+		
+		
 		
 		
 		
