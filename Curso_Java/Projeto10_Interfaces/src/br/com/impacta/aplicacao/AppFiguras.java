@@ -3,7 +3,7 @@ package br.com.impacta.aplicacao;
 import javax.swing.JOptionPane;
 
 import br.com.impacta.classes.Circulo;
-import br.com.impacta.classes.Figura;
+
 import br.com.impacta.classes.Retangulo;
 
 public class AppFiguras {
@@ -17,16 +17,11 @@ public class AppFiguras {
 		circ.setRaio(5);
 		
 		
-		apresentarFigura(ret);
-		apresentarFigura(circ);
+		JOptionPane.showMessageDialog(null, circ.apresentarFigura());
+		JOptionPane.showMessageDialog(null, ret.apresentarFigura());
+		
 	}
 	
-	private static void apresentarFigura(Figura figura) {
-		
-		String resposta = "Classe: " + figura.getClass().getName() +
-				          "\nÁrea: " + figura.calcularArea();
-		
-		JOptionPane.showMessageDialog(null, resposta);
-	}
+
 
 }

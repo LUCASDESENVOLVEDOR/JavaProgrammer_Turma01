@@ -26,8 +26,8 @@ public class AppAutomovel01 {
 		
 		JOptionPane.showMessageDialog(null, auto.mostrar(),"Relátorio", JOptionPane.ERROR_MESSAGE);
 		
-		int n = Integer.parseInt(
-				JOptionPane.showInputDialog("Informe um número"));
+		//int n = Integer.parseInt(
+				//JOptionPane.showInputDialog("Informe um número"));
 		
 		
 		
